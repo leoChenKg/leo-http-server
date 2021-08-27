@@ -18,5 +18,9 @@
     "leo-template": "^1.0.4",
     "mime": "^2.5.2",
     "moment": "^2.29.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:leoChenKg/leo-template.git"
   }
 }
