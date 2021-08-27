@@ -1,7 +1,7 @@
 # http-server-leo
 
-<p >
-  <a href="https://www.npmjs.com/package/leo-template"><img src="https://img.shields.io/npm/v/leo-template" /></a>
+<p >
+  <a href="https://www.npmjs.com/package/http-server-leo"><img src="https://img.shields.io/npm/v/http-server-leo?style=plastic" /></a>
 </p>
 
 
