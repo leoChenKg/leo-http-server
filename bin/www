@@ -1,0 +1,30 @@
+#! /usr/bin/env node
+
+const config = require('./config')
+const Server = require('../src')
+const { program } = require('commander');
+
+
+program.version('0.0.1')
+program
+    .name('hsl')
+    .usage('[options] [argv]')
+
+let usages = []
+config.forEach((conf) => {
+    program.option(conf.option, conf.description, conf.default)
+    usages.push(conf.usage)
+})
+
+program.on('--help', () => {
+    console.log('\nExamples:')
+    usages.forEach((u) => {
+        console.log(`  ${u}`)
+    })
+})
+
+program.parse(process.argv)
+let opts = program.opts()
+
+let server = new Server(opts)
+server.start()
