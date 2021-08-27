@@ -27,6 +27,8 @@ npm install http-server-leo
 hsl --port <prot> --directory <directory>
 # 或者简写
 hsl -p 3000 -d D: 
+
+npx hsl -p 3000
 ```
 
 表示在 D: 盘下开启一个静态服务，以 3000 为端口。端口默认值为 3000，目录默认值为当前命令运行的目录。如下静态文件服务器开启成功。
