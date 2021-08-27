@@ -1,6 +1,6 @@
 {
   "name": "leo-http-server",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "一款静态文件服务器命令行工具",
   "main": "./src/index.js",
   "bin": {
@@ -21,6 +21,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:leoChenKg/http-server-leo.git"
+    "url": "git@github.com:leoChenKg/leo-http-server.git"
   }
 }

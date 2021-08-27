@@ -1,7 +1,7 @@
-# http-server-leo
+# leo-http-server
 
 <p >
-  <a href="https://www.npmjs.com/package/http-server-leo"><img src="https://img.shields.io/npm/v/http-server-leo?style=plastic" /></a>
+  <a href="https://www.npmjs.com/package/leo-http-server"><img src="https://img.shields.io/npm/v/leo-http-server" /></a>
 </p>
 
 
@@ -33,8 +33,8 @@ npx hsl -p 3000
 
 表示在 D: 盘下开启一个静态服务，以 3000 为端口。端口默认值为 3000，目录默认值为当前命令运行的目录。如下静态文件服务器开启成功。
 
-![](https://github.com/leoChenKg/http-server-leo/blob/main/example.png?raw=true)
+![](https://github.com/leoChenKg/leo-http-server/blob/main/example.png?raw=true)
 
 可以在浏览器中访问了：
 
-<img src="https://github.com/leoChenKg/http-server-leo/blob/main/example1.png?raw=true" style="zoom:80%;" />
+<img src="https://github.com/leoChenKg/leo-http-server/blob/main/example1.png?raw=true" style="zoom:80%;" />
